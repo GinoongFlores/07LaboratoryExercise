@@ -233,11 +233,11 @@ _pkginfo.txt
 ClientBin/
 ~$*
 *~
-*.dbmdl
+# *.dbmdl
 *.dbproj.schemaview
 *.jfm
 *.pfx
-*.publishsettings
+# *.publishsettings
 orleans.codegen.cs
 
 # Including strong name files can present a security risk
@@ -262,9 +262,9 @@ ServiceFabricBackup/
 *.rptproj.bak
 
 # SQL Server files
-*.mdf
-*.ldf
-*.ndf
+# *.mdf
+# *.ldf
+# *.ndf
 
 # Business Intelligence projects
 *.rdl.data
