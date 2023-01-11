@@ -19,4 +19,4 @@ Laboratory Exercise (SQL Select, Insert and Update)
   
   ![image](https://user-images.githubusercontent.com/63575947/211796943-691ac841-029c-4ab6-9254-d53c6b673b03.png)
 - **Nahuman naba ni?**
-  - Wala pa as of now, e update ra nako ni inig mahuman na. **Gahulat pa ko og open source contributor (in-short) among mga pinakakusgon mo program, insert (Jason)**. 
+  - Wala pa as of now, e update ra nako ni inig mahuman na. **Gahulat pa ko og open source contributor (in-short) among mga pinakakusgan mo program, insert (Jason)**. 
