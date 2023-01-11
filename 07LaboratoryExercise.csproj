@@ -64,7 +64,7 @@
     <Compile Include="ClubRegistrationQuery.cs" />
     <Compile Include="FrmClubRegistration.cs">
       <SubType>Form</SubType>
-    </Compile>
+    </Compile> 
     <Compile Include="FrmClubRegistration.Designer.cs">
       <DependentUpon>FrmClubRegistration.cs</DependentUpon>
     </Compile>
