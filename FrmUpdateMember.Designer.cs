@@ -100,11 +100,16 @@ namespace _07LaboratoryExercise
             this.cbStudentID.Name = "cbStudentID";
             this.cbStudentID.Size = new System.Drawing.Size(234, 26);
             this.cbStudentID.TabIndex = 11;
+            this.cbStudentID.SelectedIndexChanged += new System.EventHandler(this.cbStudentID_SelectedIndexChanged);
             // 
             // cbGender
             // 
             this.cbGender.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbGender.FormattingEnabled = true;
+            this.cbGender.Items.AddRange(new object[] {
+            "Male",
+            "Female",
+            "Binary"});
             this.cbGender.Location = new System.Drawing.Point(38, 358);
             this.cbGender.Name = "cbGender";
             this.cbGender.Size = new System.Drawing.Size(196, 26);
@@ -142,6 +147,12 @@ namespace _07LaboratoryExercise
             // 
             this.cbProgram.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbProgram.FormattingEnabled = true;
+            this.cbProgram.Items.AddRange(new object[] {
+            "BSIT",
+            "BSCS",
+            "BSBA",
+            "BSTM",
+            "BSHM"});
             this.cbProgram.Location = new System.Drawing.Point(38, 414);
             this.cbProgram.Name = "cbProgram";
             this.cbProgram.Size = new System.Drawing.Size(234, 26);
@@ -185,6 +196,7 @@ namespace _07LaboratoryExercise
             this.btnConfirm.TabIndex = 20;
             this.btnConfirm.Text = "CONFIRM";
             this.btnConfirm.UseVisualStyleBackColor = true;
+            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
             // FrmUpdateMember
             // 
@@ -207,10 +219,11 @@ namespace _07LaboratoryExercise
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmUpdateMember";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmUpdateMember";
+            this.Load += new System.EventHandler(this.FrmUpdateMember_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
