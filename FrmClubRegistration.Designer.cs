@@ -80,6 +80,12 @@ namespace _07LaboratoryExercise
             // 
             this.cbProgram.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbProgram.FormattingEnabled = true;
+            this.cbProgram.Items.AddRange(new object[] {
+            "BSIT",
+            "BSCS",
+            "BSBA",
+            "BSTM",
+            "BSHM"});
             this.cbProgram.Location = new System.Drawing.Point(510, 53);
             this.cbProgram.Name = "cbProgram";
             this.cbProgram.Size = new System.Drawing.Size(234, 26);
@@ -89,6 +95,10 @@ namespace _07LaboratoryExercise
             // 
             this.cbGender.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbGender.FormattingEnabled = true;
+            this.cbGender.Items.AddRange(new object[] {
+            "Male",
+            "Gender",
+            "Binary"});
             this.cbGender.Location = new System.Drawing.Point(261, 180);
             this.cbGender.Name = "cbGender";
             this.cbGender.Size = new System.Drawing.Size(121, 26);
@@ -259,7 +269,7 @@ namespace _07LaboratoryExercise
             this.btnRefresh.TabIndex = 10;
             this.btnRefresh.Text = "REFRESH";
             this.btnRefresh.UseVisualStyleBackColor = true;
-            this.btnRefresh.Click += new System.EventHandler(this.btnUpdate_Click);
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // FrmClubRegistration
             // 
